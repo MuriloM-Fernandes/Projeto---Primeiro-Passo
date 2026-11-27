@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    background-color: #efeff4;
+    background: linear-gradient(180deg, #dcd6ee 0%, #e7e5f2 55%, #efeff4 100%);
+}
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #999999;
+}
+img{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 400px;
+}
+header ul{
+    margin-left: 20%;
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+}
+header ul li{
+     list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    background-color: #8B5CF6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 0 #141E3A;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.2s ease, color 0.2s ease;
+}
+header a:hover{
+    background-color: white;
+    color: #503493;
+    border: 2px solid black;
+}
+header a:active{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #212a44;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+main .le{
+    width: 50%;
+    text-align: justify;
+    margin-left: 5%;
+
+}
+main .le h1{
+    color: #0E1A3A;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+main .le p{
+    color: #4A5578;
+}
+.botao {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.btn-criar{
+    font-size: 18px;
+    background-color: #8B5CF6;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #4c1d95;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.2s ease, color 0.2s ease;
+}
+.btn-criar:hover{
+    background-color: white;
+    color: #8953f5;
+    border: 1px solid black;
+}
+.btn-criar:active{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #4c1d95;
+}
+
+.btn-ver{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid #0E1A3A;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-ver:hover{
+    background-color: #0E1A3A;
+    color: white;
+}
+.btn-ver:active{
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #0E1A3A;
+}
+main .ld{
+    width: 50%;
+}
+.V{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.V h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-weight: 500;
+}
+.V h4::before {
+  content: "✓";
+  color: #16a34a;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.ld{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.etapas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+
+    height: 300px;
+    padding: 0 20px;
+}
+
+.etapa {
+    width: 150px;
+    padding: 10px;
+    border-radius: 12px 12px 0 0;
+
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.etapa strong {
+    font-size: 32px;
+}
+
+.etapa p {
+    font-size: 25px;
+    margin-top: 4px;
+}
+.etapa-1 {
+    height: 150px;
+    background: #46577e;
+}
+
+.etapa-2 {
+    height: 200px;
+    background: #0d1c3d;
+}
+
+.etapa-3 {
+    height: 250px;
+    background: #503493;
+}
+
+.etapa-4 {
+    height: 300px;
+    background: #8953f5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.container .p1{
+    color: #6D28D9;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .p2{
+    color: #4A5578;
+    font-size: 20px;
+}
+.caixas{
+    display: flex;
+    justify-content: space-around;
+}
+.caixa1 h3,
+.caixa2 h3,
+.caixa3 h3,
+.caixa4 h3{
+    color: #0E1A3A;
+    font-weight: bold;
+    font-size: 30px;
+}
+.caixa1 p, 
+.caixa2 p, 
+.caixa3 p, 
+.caixa4 p{
+    font-size: 20px;
+}
+.caixa1, .caixa2, .caixa3, .caixa4{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border: 2px solid #0E1A3A;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.espacar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+

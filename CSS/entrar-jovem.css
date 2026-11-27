@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.tela-login{
+    display: flex;
+}
+
+.le{
+    width: 40%;
+    height: 100vh;
+    background-color: #513690;
+    padding: 30px 100px;
+    align-content: center;
+}
+.ld{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.conteudo-le{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.le h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Poppins';
+}
+.le p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+.criar-conta{
+    justify-content: right;
+    display: flex;
+    margin-top: 2%;
+    margin-right: 10%;
+    gap: 10px;
+}
+.criar-conta p{
+    font-size: 32px;
+    font-family: "Poppins";
+    padding: 5px 10px;
+}
+.criar-conta a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #513690;
+    color: white;
+    border: 2px solid #513690;
+    border-radius: 16px;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 10px;
+    box-shadow: 0 6px 0 #513690; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.criar-conta a:hover {
+    background-color: white;
+    color: #513690;
+}
+
+.criar-conta a:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #513690;
+}
+
+.placeholder-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 500px;
+    max-width: 100%;
+    background-color: white;
+    border: none;
+}
+
+.entrar-texto h2 {
+    font-size: 38px;
+    color: #101b40;
+}
+
+.entrar-texto p {
+    font-size: 14px;
+    color: #59658a;
+    margin-bottom: 15px;
+}
+
+.form-preencher h4,
+.senha-esqueci h4 {
+    font-size: 14px;
+    color: #101b40;
+    margin-bottom: 3px;
+}
+
+.form-preencher > input {
+    width: 100%;
+    height: 48px;
+    background-color: #dedfe4;
+    border: none;
+    border-radius: 15px;
+    padding: 0 14px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.form-preencher input::placeholder {
+    color: #29395e;
+    font-size: 12px;
+}
+
+.senha-esqueci {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.senha-esqueci a {
+    font-size: 12px;
+    color: #843bff;
+}
+
+.campo-senha {
+    position: relative;
+}
+
+.campo-senha input {
+    width: 100%;
+    height: 48px;
+    background-color: #dedfe4;
+    border: none;
+    border-radius: 15px;
+    padding: 0 100px 0 14px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.mostrar-senha {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    background: linear-gradient(90deg, #513690, #9153fa);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #101b40;
+}
+
+.checkbox input {
+    width: 23px;
+    height: 23px;
+    accent-color: #101b40;
+    flex-shrink: 0;
+}
+
+.politica {
+    font-size: 12px;
+    color: #843bff;
+    margin-left: 35px;
+}
+
+.btn-entrar {
+    display: block;
+    width: 75%;
+    height: 45px;
+    margin: 25px auto;
+    background: linear-gradient(90deg, #513690, #9153fa);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.separador span {
+    flex: 1;
+    height: 1px;
+    background-color: #8990a7;
+}
+
+.separador p {
+    font-size: 13px;
+}
+
+.primeira-vez {
+    background-color: #101b40;
+    color: white;
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.primeira-vez h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.primeira-vez p {
+    font-size: 14px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.botoes-conta {
+    display: flex;
+    gap: 25px;
+}
+
+.botoes-conta a {
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-jovem {
+    background-color: #9153fa;
+    color: white;
+}
+
+.btn-empresa {
+    border: 1px solid #59658a;
+    color: white;
+}
+
+.btn-jovem:hover {
+    background-color: white;
+    color: #513690;
+    font: bold;
+}
+
+.btn-jovem:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #513690;
+}
+
+.btn-empresa:hover {
+    background-color: white;
+    color: #59658a;
+    font: bold;
+}
+
+.btn-empresa:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #59658a;
+}
+
+#btn-mostrar:hover{
+    border: 1px solid black;
+}
+
+#btn-mostrar:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 0 black;
+}
+
+@media (max-width: 1280px){
+    
+    .le h1{
+        font-size: 4rem;
+    }
+}
