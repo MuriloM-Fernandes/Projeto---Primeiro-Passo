@@ -1,0 +1,133 @@
+
+body{
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+  background: #0f1a4a;
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.logo-img{
+  height: 60px;
+  width: auto;
+}
+
+.status{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background: #6E49C3;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 24px 0 16px;
+}
+
+.informacao{
+  color: #b8bbd4;
+}
+
+.botoes{
+  margin-top: 30px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid #6C6F8B;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.botao.ativo{
+  background: #8b5cf6;
+  border-color: #8b5cf6;
+}
+
+.botao:hover{
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.botao.ativo:hover{
+  background: #7c3aed;
+  box-shadow: 0 6px 15px rgba(139, 92, 246, 0.6);
+}
+
+.botao:active{
+  transform: scale(0.95);
+}
+
+
+.caixa{
+  margin-top: 40px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+h2{
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h2:first-child{
+    margin-top: 0;
+}
+
+p{
+  color: #b8bbd4;
+  line-height: 1.6;
+  font-family: "Quicksand", sans-serif;
+}
+
+.dpo{
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 16px;
+  background: linear-gradient(to right, #0f1a4a, #513690, #8B5CF6);
+}
+
+.dpo h3{
+  font-size: 22px;
+  margin: 0 0 10px;
+}
+
+.dpo p{
+  color: white;
+}
+
+.email{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 24px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.email:hover{
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.email:active{
+  transform: scale(0.95);
+}
